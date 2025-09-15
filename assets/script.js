@@ -61,9 +61,9 @@
 
       page.drawImage(headerImg, {
         x: 0,
-        y: height - 90,
+        y: height - 100,
         width: width,
-        height: 90
+        height: 100
       });
 
       page.drawImage(footerImg, {
