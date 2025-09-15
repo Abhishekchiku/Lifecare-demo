@@ -19,7 +19,7 @@
     dropZone.classList.add("dragover");
   });
 
-  // Drag leave
+  // Drag leave 
   dropZone.addEventListener("dragleave", () => {
     dropZone.classList.remove("dragover");
   });
@@ -61,16 +61,16 @@
 
       page.drawImage(headerImg, {
         x: 0,
-        y: height - 80,
+        y: height - 100,
         width: width,
-        height: 80
+        height: 100
       });
 
       page.drawImage(footerImg, {
         x: 0,
         y: 0,
         width: width,
-        height: 60
+        height: 100
       });
     }
 
